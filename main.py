@@ -68,7 +68,7 @@ celdas = [[0 for x in range(cols)] for y in range(rows)]
 
 validacion = False
 TIMER_EVENT = USEREVENT + 1
-time.set_timer(TIMER_EVENT, 10)
+time.set_timer(TIMER_EVENT, 50)
 
 
 
